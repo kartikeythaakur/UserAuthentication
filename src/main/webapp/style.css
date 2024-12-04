@@ -1,0 +1,34 @@
+
+body{
+  background-color: #212121;
+  color:white;
+}
+.regisformm {
+  color:black;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #212121; /* Optional: Background color for better visibility */
+}
+
+.form-header {
+  margin-bottom: 20px; /* Space between header and form */
+}
+
+.form-header h2 {
+  margin-top: 30px;
+  text-align: center;
+  color: #ffffff; /* Optional: Text color */
+}
+
+.resform {
+  width: 100%;
+  max-width: 400px;/* Adjust as needed */
+  padding: 20px;
+  background-color: #fff; /* Optional: Background color for the form */
+  border-radius: 8px; /* Optional: Rounded corners for the form */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Shadow for the form */
+  /* margin-top: 30px; */
+}
